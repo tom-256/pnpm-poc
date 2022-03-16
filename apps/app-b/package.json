@@ -1,22 +1,19 @@
 {
-  "name": "pnpm-example",
+  "name": "app-b",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npx only-allow pnpm"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tom-256/pnpm-example.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tom-256/pnpm-example/issues"
   },
-  "homepage": "https://github.com/tom-256/pnpm-example#readme",
-  "packageManager": "pnpm@6.32.3"
+  "homepage": "https://github.com/tom-256/pnpm-example#readme"
 }
