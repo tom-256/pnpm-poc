@@ -18,5 +18,13 @@
     "url": "https://github.com/tom-256/pnpm-example/issues"
   },
   "homepage": "https://github.com/tom-256/pnpm-example#readme",
-  "packageManager": "pnpm@6.32.3"
+  "packageManager": "pnpm@6.32.3",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.6.0",
+    "typescript": "^4.6.2"
+  }
 }

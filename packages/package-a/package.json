@@ -1,10 +1,13 @@
 {
-  "name": "a",
+  "name": "package-a",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/tom-256/pnpm-example/issues"
   },
-  "homepage": "https://github.com/tom-256/pnpm-example#readme"
+  "homepage": "https://github.com/tom-256/pnpm-example#readme",
+  "dependencies": {
+    "cowsay": "^1.5.0"
+  }
 }
