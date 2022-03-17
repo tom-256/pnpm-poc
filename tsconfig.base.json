@@ -1,0 +1,12 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "rootDir": ".",
+        "baseUrl": ".",
+        "paths": {
+            "@pnpm-example/package-a": [
+                "packages/package-a/src/index.ts"
+            ]
+        }
+    }
+}

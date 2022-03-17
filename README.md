@@ -18,3 +18,15 @@ pnpm --filter "package-a" build
 ```bash
 pnpm i -wD typescript prettier eslint
 ```
+
+```bash
+pnpm --filter "app-a" add package-a
+```
+
+```bash
+cd apps/app-a
+pnpm i @pnpm-example/package-a
+```
+
+https://github.com/microsoft/TypeScript/issues/30693
+

@@ -1,10 +1,14 @@
 {
-  "name": "app-a",
+  "name": "@pnpm-example/app-a",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts",
+    "start": "node ./dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/tom-256/pnpm-example/issues"
   },
-  "homepage": "https://github.com/tom-256/pnpm-example#readme"
+  "homepage": "https://github.com/tom-256/pnpm-example#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  },
+  "dependencies": {
+    "@pnpm-example/package-a": "workspace:^1.0.0",
+    "express": "^4.17.3"
+  }
 }
