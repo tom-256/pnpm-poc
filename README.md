@@ -20,7 +20,7 @@ pnpm i -wD typescript prettier eslint
 ```
 
 ```bash
-pnpm --filter "app-a" add package-a
+pnpm --filter "app-a" add express
 ```
 
 ```bash
@@ -29,4 +29,10 @@ pnpm i @pnpm-example/package-a
 ```
 
 https://github.com/microsoft/TypeScript/issues/30693
+
+
+```bash
+docker build . -t pnpm-example/app-a:latest -f apps/app-a/Dockerfile --load
+```
+
 
