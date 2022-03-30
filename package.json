@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "npx only-allow pnpm",
-    "publish": "changeset publish"
+    "publish": "changeset publish",
+    "version": "changeset version"
   },
   "repository": {
     "type": "git",
